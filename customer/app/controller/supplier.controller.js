@@ -1,8 +1,6 @@
 const Supplier = require("../models/supplier.model.js");
 const {body, validationResult} = require("express-validator");
 
-
-
 exports.findAll = (req, res) => {
     Supplier.getAll((err, data) => {
         if (err)
@@ -24,4 +22,3 @@ exports.findOne = (req, res) => {
         } else res.render("supplier-update", {supplier: data});
     });
 };
-

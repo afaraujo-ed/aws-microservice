@@ -1,6 +1,6 @@
 // define default config, but allow overrides from ENV vars
 let config = {
-  APP_DB_HOST: "supplierdb.c3rceyheq8rw.us-east-1.rds.amazonaws.com",
+  APP_DB_HOST: "supplierdb.cttb48xxhpjw.us-east-1.rds.amazonaws.com",
   APP_DB_USER: "nodeapp",
   APP_DB_PASSWORD: "coffee",
   APP_DB_NAME: "COFFEE"

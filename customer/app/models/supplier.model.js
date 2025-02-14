@@ -30,6 +30,7 @@ Supplier.getAll = result => {
     });
 };
 
+
 Supplier.findById = (supplierId, result) => {
     db_connection.query(`SELECT * FROM suppliers WHERE id = ${supplierId}`, (err, res) => {
         if (err) {
